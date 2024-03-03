@@ -1,0 +1,160 @@
+.devfest_intro_section {
+  background-color: #141414;
+}
+
+.devfest_container{
+  display: flex;
+  flex-direction: row;
+  background-color: #141414;
+  padding-top: 2rem;
+  height: 50vh;
+}
+
+.devfest_title {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 160px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.devfest_title_heading{
+  font-weight: bold;
+  font-size: 30px; 
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.devfest_title_para_one {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+}
+
+.devfest_title_para_two {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 0px;
+}
+
+.devfest_intro_monuments {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; 
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 80px;
+}
+
+.devfest_intro_monument {
+  align-self: flex-end; 
+}
+
+.devfest_intro_monuments img {
+  height: 100px; 
+}
+
+.devfest_intro_monument {
+  animation: monumentAnimation 5s ease-out;
+}
+
+@keyframes monumentAnimation {
+  from {
+    transform: translate(100%, 100%);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .devfest_intro_image{
+    height: 300px;
+    padding: 20px;
+  }
+
+  .devfest_title {
+    color: #ffffff;
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .devfest_intro_monuments img {
+    height: 60%; 
+  }
+
+  .devfest_intro_monument{
+    height: 150px !important;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .devfest_container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .devfest_intro_image{
+    height: 300px;
+    padding: 20px;
+  }
+
+  .devfest_title {
+    color: #ffffff;
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 2px;
+    line-height: 18px;
+    margin-left: 20px;
+    padding: 20px;
+  }
+
+  .devfest_title_heading{
+    font-weight: bold;
+    font-size: 30px; 
+    padding: 2px; 
+    text-align: center;
+  }
+
+  .devfest_title_para {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 0px;
+    padding: 20px;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .devfest_intro_monuments img {
+    height: 100%; 
+  }
+
+  .devfest_intro_monuments {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;   
+    justify-content: space-between;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 15rem;
+  }
+
+  .devfest_intro_monument{
+    height: 50px !important;
+  }
+}

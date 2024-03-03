@@ -1,0 +1,42 @@
+/* Desktop */
+.aud-count-page {
+  background-color: #141414;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 100px 50px;
+}
+
+.aud-count-container {
+  /* padding: 50px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.countDesktop {
+  align-items: center;
+}
+
+.countMobile {
+  display: none;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .aud-count-page {
+    overflow: hidden;
+    padding: 20px 50px;
+  }
+  
+  .aud-count-container {
+    padding-bottom: 24px;
+  }
+
+  .countMobile {
+    display: flex;
+  }
+
+  .countDesktop {
+    display: none;
+  }
+}

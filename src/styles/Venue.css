@@ -1,0 +1,39 @@
+.venue_container{
+    background-color: #141414;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px ;
+    color: white;
+    display: flex;
+  flex-direction: column;
+}
+
+.venue_text{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.venue{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.venue_location {
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.venue_location iframe {
+    width: 600px;
+    height: 300px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .venue_location iframe {
+        width: 300px;
+        height: 200px;
+      }
+  }

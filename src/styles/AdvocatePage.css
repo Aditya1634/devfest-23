@@ -1,0 +1,117 @@
+.advocate-page {
+  overflow: hidden;
+}
+
+.advocate-page-container {
+background-color: #fff0c6;
+display: flex;
+flex-direction: row;
+color: #141414;
+padding-left: 140px;
+padding-right: 140px;
+align-items: flex-end; 
+justify-content: space-between;
+}
+
+.advocate-content {
+display: flex;
+}
+
+.image-container {
+background-color: #fff0c6;
+padding-top: 20px;
+margin-bottom: 20px;
+align-items: center;
+justify-content: center;
+}
+
+.profile {
+background-color: #fff0c6;
+position: relative;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+}
+
+.quote-container {
+background-color: #fff0c6;
+padding: 5rem;
+}
+
+.quote {
+color: black;
+background-color: #fff0c6;
+font-weight: 600;
+font-size: 24px !important;
+font-family: "Montserrat", sans-serif;
+text-align: left;
+padding-bottom: 15px;
+}
+
+.name {
+background-color: #fff0c6;
+text-align: left;
+color: #f4b400;
+font-weight: 500;
+size: 20px;
+font-family: "Open Sans", sans-serif;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 768px) {
+.advocate-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.advocate-page-container {
+  /* background-color: #fff0c6; */
+  display: flex;
+  flex-direction: column;
+  /* color: black; */
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-container {
+  background-color: #fff0c6;
+  padding: 5%;
+  margin-bottom: -10%;
+  align-items: center;
+  height: 15rem;
+  width: 15rem;
+}
+
+.profile {
+  background-color: #fff0c6;
+  position: relative;
+  padding-top: 5%;
+  height: 80% !important;
+}
+
+.quote-container {
+  background-color: #fff0c6;
+  padding: 9% 5% 5%;
+}
+
+.quote {
+  color: black;
+  background-color: #fff0c6;
+  font-weight: 400;
+  font-size: 14px !important;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.name {
+  background-color: #fff0c6;
+  text-align: left;
+  color: #f4b400;
+  font-weight: 500;
+  size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+}
+
